@@ -49,12 +49,13 @@
         padding-bottom: 0px;
         background: #34495e;
     }
-    .lg-footer > .lg-footer-top,
+    .lg-footer > .lg-footer-top {
+        display: none;
+    }
     .lg-footer > .lg-index-tool {
         margin-left: 65px;
         max-width: calc(100% - 65px);
     }
-    .lg-footer > .lg-footer-top,
     .lg-footer > .lg-index-tool {
         background: #333;
     }
@@ -62,10 +63,8 @@
         padding-left: 50px;
         padding-right: 50px;
         margin-top: 0px;
-        padding-bottom: 30px;
-    }
-    .lg-footer > .lg-footer-top {
         padding-top: 30px;
+        padding-bottom: 30px;
     }
 }
 }
