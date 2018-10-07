@@ -1,0 +1,96 @@
+@-moz-document domain("www.luogu.org") {
+.am-btn, .am-badge, .am-panel, .tip-twitter, .am-radius {
+    /* 删除让人浮躁的圆角 */
+    /* 希望每位 OIer 不要被掰弯 */
+    border-radius: 0px!important;
+}
+.am-badge {
+    /* badage 美化 */
+    font-weight: 500;
+    font-size: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.am-comment-primary .am-comment-main,
+.am-comment-primary .am-comment-main:before,
+.am-comment-primary .am-comment-avatar {
+    /* 删除犇犇和讨论的蓝框框 */
+    border: none;
+}
+
+
+}
+
+@-moz-document domain("www.luogu.org") {
+/* === 美化 sidebar 展示位置 === */
+
+@media screen and (min-width: 700px) {
+    /* 强行在左边给 sidebar 挤一块位置出来 */
+    div.am-topbar-brand {
+        display: none;
+    }
+    .am-topbar {
+        padding-left: 50px;
+        margin-left: 65px;
+    }
+    .lg-sidebar {
+        margin-top: -51px;
+    }
+    .lg-rail-sidebar {
+        max-width: 20px;
+        width: 20px;
+    }
+    .lg-footer {
+        padding-bottom: 0px;
+        background: #34495e;
+    }
+    .lg-footer > .lg-footer-top,
+    .lg-footer > .lg-index-tool {
+        margin-left: 65px;
+        max-width: calc(100% - 65px);
+    }
+    .lg-footer > .lg-index-tool {
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-top: 0px;
+        padding-bottom: 30px;
+    }
+    .lg-footer > .lg-footer-top {
+        padding-top: 30px;
+    }
+}
+}
+
+@-moz-document domain("www.luogu.org") {
+/* === 颜色相关 === */
+
+.am-topbar, .am-collapse, .am-dropdown-toggle, .am-topbar-form, .topbar-search-text, #topbar-search, .lg-header-list>li {
+    /* header 栏颜色 */
+    background: #333;
+    border-color: #333;
+}
+#topbar-search-text {
+    /* header 搜索框消除 border */
+    border-color: #00000000;
+}
+
+.lg-nav-home, .lg-nav-problem, .lg-nav-training, .lg-nav-contest, .lg-nav-record, .lg-nav-discuss {
+    /* 侧边栏按钮背景全透明 */
+    background-color: #00000000!important;
+}
+.lg-nav-home {
+    background-color: #5EB95E!important;
+}
+
+.am-panel-primary {
+    /* border: none; */
+    background-color: #00000000;
+}
+
+.lg-footer,
+.lg-footer > .lg-index-tool,
+.lg-footer > .lg-footer-top {
+    /* 删除原 footer 的背景图改为直接配色 */
+    background: #333;
+}
+}
