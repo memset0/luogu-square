@@ -1,3 +1,12 @@
+/*
+
+  avatar: memset0
+  website: https://memset0.cn/
+  repository: https://github.com/memset0/luogu-square/
+  license: MIT License
+
+*/
+
 @-moz-document domain("www.luogu.org") {
 .am-btn, .am-badge, .am-panel, .tip-twitter, .am-radius {
     /* 删除让人浮躁的圆角 */
