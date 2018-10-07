@@ -24,6 +24,11 @@
 @-moz-document domain("www.luogu.org") {
 /* === 美化 sidebar 展示位置 === */
 
+@media screen and (max-width: 700px) {
+    .lg-footer {
+        background: #333;
+    }
+}
 @media screen and (min-width: 700px) {
     /* 强行在左边给 sidebar 挤一块位置出来 */
     div.am-topbar-brand {
@@ -48,6 +53,10 @@
     .lg-footer > .lg-index-tool {
         margin-left: 65px;
         max-width: calc(100% - 65px);
+    }
+    .lg-footer > .lg-footer-top,
+    .lg-footer > .lg-index-tool {
+        background: #333;
     }
     .lg-footer > .lg-index-tool {
         padding-left: 50px;
@@ -85,12 +94,5 @@
 .am-panel-primary {
     /* border: none; */
     background-color: #00000000;
-}
-
-.lg-footer,
-.lg-footer > .lg-index-tool,
-.lg-footer > .lg-footer-top {
-    /* 删除原 footer 的背景图改为直接配色 */
-    background: #333;
 }
 }
