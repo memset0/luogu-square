@@ -107,4 +107,24 @@
     /* border: none; */
     background-color: #00000000;
 }
+
+.am-selected
+.am-dropdown
+.am-active
+.am-selected-content
+.am-dropdown-content
+.am-btn-secondary .am-dropdown-toggle,
+.am-btn-secondary .am-active,
+.am-btn-secondary:active {
+    background-color: #5EB95E!important;
+}
+}
+
+@-moz-document url-prefix("http://www.luogu.org/app/ide_frame"), url-prefix("https://www.luogu.org/app/ide_frame") {
+.am-topbar {
+    margin-left: 0px;
+}
+.am-topbar-brand a {
+    color: #fff;
+}
 }
