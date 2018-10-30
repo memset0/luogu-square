@@ -10,7 +10,7 @@
 @-moz-document domain("www.luogu.org") {
 .am-btn, .am-badge, .am-panel, .tip-twitter, .am-radius {
     /* 删除让人浮躁的圆角 */
-    /* 希望每位 OIer 不要被掰弯 */
+    /* 希望各位 OIer 不要被掰弯 */
     border-radius: 0px!important;
 }
 .am-badge {
@@ -26,8 +26,6 @@
     /* 删除犇犇和讨论的蓝框框 */
     border: none;
 }
-
-
 }
 
 @-moz-document domain("www.luogu.org") {
