@@ -29,7 +29,7 @@
 }
 
 @-moz-document domain("www.luogu.org") {
-/* === 美化 sidebar 展示位置 === */
+/* === 美化 sidebar === */
 
 @media screen and (max-width: 700px) {
     .lg-footer {
@@ -38,12 +38,18 @@
 }
 @media screen and (min-width: 700px) {
     /* 强行在左边给 sidebar 挤一块位置出来 */
+    .lg-sidebar {
+        max-width: 60px;
+    }
+    .lg-content {
+        margin-left: 60px;
+    }
     div.am-topbar-brand {
         display: none;
     }
     .am-topbar {
         padding-left: 50px;
-        margin-left: 65px;
+        margin-left: 60px;
     }
     .lg-sidebar {
         margin-top: -51px;
@@ -60,7 +66,7 @@
         display: none;
     }
     .lg-footer > .lg-index-tool {
-        margin-left: 65px;
+        margin-left: 60px;
         max-width: calc(100% - 65px);
     }
     .lg-footer > .lg-index-tool {
